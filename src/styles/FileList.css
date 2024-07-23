@@ -1,0 +1,27 @@
+/* FileList.css */
+.file-list-container {
+  margin-top: 20px;
+}
+
+.file-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.file-card:hover {
+  transform: scale(1.05);
+}
+
+.selected {
+  border: 2px solid #007bff;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comments-btn, .download-btn {
+  margin-top: 10px;
+}
