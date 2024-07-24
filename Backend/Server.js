@@ -81,7 +81,7 @@ const projectRoutes = require('./Routers/projectMember')//root for the get a pro
 require('dotenv').config(); 
 
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 
 // Connect to MongoDB
 connectDB();
