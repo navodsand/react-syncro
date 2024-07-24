@@ -78,7 +78,8 @@ const userProjectsRoutes = require('./Routers/userProjects'); // get route for u
 const filesRoutes  = require('./Routers/files') // get route for user project file upload
 const meetingRoutes  = require('./Routers/meeting')//get root for the virtual meeting
 const projectRoutes = require('./Routers/projectMember')//root for the get a project team members
- 
+require('dotenv').config(); 
+
 const app = express();
 const PORT = 4000;
 
